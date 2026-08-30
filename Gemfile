@@ -65,4 +65,5 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "devise", "~> 5.0"
+# Testing https://github.com/heartcombo/devise/pull/5853
+gem "devise", github: "kaisq/devise", branch: "devise-model-registration"
