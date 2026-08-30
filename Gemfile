@@ -65,4 +65,5 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "devise", "~> 5.0"
+# Testing https://github.com/heartcombo/devise/pull/5831
+gem "devise", github: "heartcombo/devise", branch: "ca-routes-eager"
